@@ -4,18 +4,18 @@ on:
   push:
 
 jobs:
-  job1:
-  ubuntu-echo:
-   runs-on: ubuntue-latest
+ job1:
+   ubuntu-echo:
+    runs-on: ubuntue-latest
    steps:
-   - name: show os
-     run: |
-      echo "this job is running on an ubuntu runner"
-      echo "${{ runner.os }}"
+    - name: show os
+      run: |
+       echo "this job is running on an ubuntu runner"
+       echo "${{ runner.os }}"
 
 
 
-  job2:
+ job2:
    runs-on: windows-latest
    steps:
     - name: show os
@@ -24,7 +24,7 @@ jobs:
        echo "${{ runner.os }}"
 
 
-  job3:
+ job3:
    runs-on: macos-latest
    steps:
     - name: show os

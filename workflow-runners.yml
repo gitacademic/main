@@ -5,7 +5,7 @@ on:
 
 jobs:
  job1:
-  runs-on: ubuntue-latest
+  runs-on: ubuntu-latest
   steps:
   - name: show os
     run:

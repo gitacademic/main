@@ -20,7 +20,7 @@ jobs:
    - name: show os
      run:
      echo "this job is running on a windows runner"
-     echo "${{ runner.os }}"
+     echo "${{ runner.os }}" 
 
 
  job3:
